@@ -40,3 +40,7 @@ To train the style transfer models for CDS and GYAFC, please run the scripts in 
 4. `04_generate_sft_data.sh`: generate the end-to-end style transfer dataset $\mathcal{D}_\text{trf}$
 5. `05_train_sft.sh`: train the initial reference model $f^1_\text{ref}$ on $\mathcal{D}_\text{trf}$
 6. `06_cpo.sh`: train $f^1_\text{ref}$ using multi-iteration CPO (this script also generate outputs on the test set in `outputs`)
+
+# Acknowledgments
+
+This research is supported in part by the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA), via the HIATUS Program contract #2022-22072200006, and in part by the Defense Advanced Research Projects Agency (DARPA) under Agreement No. HR00112490374. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of ODNI, IARPA, DARPA, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any copyright annotation therein.
